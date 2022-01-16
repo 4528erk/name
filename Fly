@@ -13,7 +13,7 @@ local Open = Instance.new("TextButton")
 --Properties:
 
 Fly.Name = "Fly"
-Fly.Parent = game.Workspace
+Fly.Parent = game.CoreGui
 Fly.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Fly
