@@ -1,0 +1,84 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Fly = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local FlyActivate = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local FLY = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+Fly.Name = "Fly"
+Fly.Parent = game.Workspace
+Fly.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Fly
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.372620136, 0, 0.267515928, 0)
+Frame.Size = UDim2.new(0, 236, 0, 209)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+FlyActivate.Name = "Fly/Activate"
+FlyActivate.Parent = Frame
+FlyActivate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyActivate.Position = UDim2.new(0.072033897, 0, 0.339712918, 0)
+FlyActivate.Size = UDim2.new(0, 201, 0, 50)
+FlyActivate.Font = Enum.Font.LuckiestGuy
+FlyActivate.Text = "Activate"
+FlyActivate.TextColor3 = Color3.fromRGB(255, 0, 0)
+FlyActivate.TextScaled = true
+FlyActivate.TextSize = 14.000
+FlyActivate.TextWrapped = true
+FlyActivate.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
+	FlyActivate.Text = "Press E to fly and unfly"
+	FlyActivate.TextSize = 10.000
+end)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.851694942, 0, 0.062200956, 0)
+ImageLabel.Size = UDim2.new(0, 29, 0, 30)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=836607867"
+
+FLY.Name = "FLY"
+FLY.Parent = Frame
+FLY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FLY.Position = UDim2.new(0.00423728814, 0, -0.138755977, 0)
+FLY.Size = UDim2.new(0, 235, 0, 29)
+FLY.Font = Enum.Font.LuckiestGuy
+FLY.Text = "Fly"
+FLY.TextColor3 = Color3.fromRGB(255, 0, 0)
+FLY.TextScaled = true
+FLY.TextSize = 14.000
+FLY.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = Fly
+Open.BackgroundColor3 = Color3.fromRGB(85, 85, 127)
+Open.Position = UDim2.new(0, 0, 0.490445852, 0)
+Open.Size = UDim2.new(0, 118, 0, 47)
+Open.Font = Enum.Font.LuckiestGuy
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+-- Scripts:
+
+local function UQFB_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+	end)
+	
+end
+coroutine.wrap(UQFB_fake_script)()
