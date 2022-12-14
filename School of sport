@@ -1,0 +1,78 @@
+local args = {
+    [1] = "(x:-13.172073364257812, y:31.68347930908203, z:-81.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:157.8279266357422, y:31.68347930908203, z:-101.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:170.8279266357422, y:31.68347930908203, z:-100.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:144.8279266357422, y:31.68347930908203, z:-102.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:131.8279266357422, y:31.68347930908203, z:-103.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:105.82792663574219, y:31.68347930908203, z:-105.21162414550781)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:193.8279266357422, y:31.68347930908203, z:-187.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:193.8279266357422, y:31.68347930908203, z:-194.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:188.8279266357422, y:31.68347930908203, z:-199.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:181.8279266357422, y:31.68347930908203, z:-199.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:175.8279266357422, y:31.68347930908203, z:-194.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "(x:190.8279266357422, y:31.68347930908203, z:-146.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
+
+local args = {
+    [1] = "(x:188.8279266357422, y:31.68347930908203, z:-181.2116241455078)"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.RewardCurrencyPickup:FireServer(unpack(args))
